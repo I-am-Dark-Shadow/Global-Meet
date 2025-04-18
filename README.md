@@ -1,3 +1,0 @@
-# Global-Meet
-
-Coming soon....
