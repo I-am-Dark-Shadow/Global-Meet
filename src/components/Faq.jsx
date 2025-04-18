@@ -3,23 +3,23 @@ import React, { useState } from 'react';
 const faqs = [
     {
         id: 1,
-        question: 'How do I request a refund?',
-        answer: 'We understand that situations may arise where you need a refund. Please reach out to our support team for assistance.',
+        question: 'How do I start a video meeting?',
+        answer: 'To start a video meeting, simply log in to your account and click the "Start Meeting" button on your dashboard. You can then invite others using the meeting link.',
     },
     {
         id: 2,
-        question: 'Can I upgrade my plan at any time?',
-        answer: 'Yes, you can upgrade your plan at any time to access more features and services. Contact our team for assistance with upgrading.',
+        question: 'Do participants need to download anything?',
+        answer: 'No downloads needed! Participants can join directly through their browser using the meeting link you provide.',
     },
     {
         id: 3,
-        question: 'Is technical support available 24/7?',
-        answer: 'Our technical support team is available 24/7 to assist you with any queries or issues you may encounter. Reach out to us anytime!',
+        question: 'Is there a time limit for meetings?',
+        answer: 'Free plans have a 40-minute time limit per meeting. Upgrade to a premium plan for unlimited meeting duration.',
     },
     {
         id: 4,
-        question: 'Are there any discounts for long-term subscriptions?',
-        answer: 'We offer special discounts for customers who opt for long-term subscription plans. Contact us for more details on available offers.',
+        question: 'Can I record my meetings?',
+        answer: 'Yes, you can record meetings by clicking the "Record" button during a session. Recordings will be saved to your account dashboard.',
     },
 ];
 
@@ -31,12 +31,12 @@ const Faq = () => {
     };
 
     return (
-        <section className="py-12 bg-white sm:py-16 lg:py-20">
+        <section id='FAQ' className="py-12 bg-white sm:py-16 lg:py-20">
             <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
                 <div className="text-center">
                     <h2 className="text-3xl font-bold text-gray-900 sm:text-4xl xl:text-5xl font-pj">Frequently Asked Questions</h2>
                     <p className="max-w-lg mx-auto mt-6 text-base text-gray-600 font-pj">
-                        Have questions? We've got answers. Check out some common queries below.
+                        Everything you need to know about using our video conferencing platform.
                     </p>
                 </div>
 

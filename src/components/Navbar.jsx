@@ -1,16 +1,17 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const Navbar = () => {
   return (
     <>
-      <header className="pb-6 bg-white lg:pb-0" x-data="{expanded: false}">
+      <header className="bg-white pb-0" x-data="{expanded: false}">
         <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
 
           <nav className="flex items-center justify-between h-16 lg:h-20">
             <div className="flex-shrink-0">
-              <a href="#" title="" className="flex items-center gap-2">
-                <img className="w-auto h-8 lg:h-14" src="/tittle_logo.png" alt="" />
-                <p className="text-2xl font-bold">
+              <a href="/" title="" className="flex items-center gap-2">
+                <img className="w-auto h-10 lg:h-14" src="/tittle_logo.png" alt="" />
+                <p className="text-2xl lg:text-3xl font-bold">
                   <span className="text-blue-600">G</span>
                   <span className="text-red-600">l</span>
                   <span className="text-yellow-400">o</span>
@@ -28,16 +29,16 @@ const Navbar = () => {
             </div>
 
             <div className="hidden lg:flex lg:items-center lg:ml-auto lg:space-x-10">
-              <a href="#" title="" className="text-base font-medium text-black transition-all duration-200 hover:text-blue-600 focus:text-blue-600"> Features </a>
+              <a href="#Partner" title="" className="text-base font-medium text-black transition-all duration-200 hover:text-blue-600 focus:text-blue-600"> Partners </a>
 
-              <a href="#" title="" className="text-base font-medium text-black transition-all duration-200 hover:text-blue-600 focus:text-blue-600"> Solutions </a>
+              <a href="#Reviews" title="" className="text-base font-medium text-black transition-all duration-200 hover:text-blue-600 focus:text-blue-600"> Reviews </a>
 
-              <a href="#" title="" className="text-base font-medium text-black transition-all duration-200 hover:text-blue-600 focus:text-blue-600"> Resources </a>
+              <a href="#FAQ" title="" className="text-base font-medium text-black transition-all duration-200 hover:text-blue-600 focus:text-blue-600"> FAQ </a>
 
-              <a href="#" title="" className="text-base font-medium text-black transition-all duration-200 hover:text-blue-600 focus:text-blue-600"> Pricing </a>
+              <a href="#Contact" title="" className="text-base font-medium text-black transition-all duration-200 hover:text-blue-600 focus:text-blue-600"> Contact </a>
             </div>
 
-            <a href="#" title="" className="items-center justify-center hidden px-4 py-3 ml-10 text-base font-semibold text-white transition-all duration-200 bg-blue-600 border border-transparent rounded-md lg:inline-flex hover:bg-blue-700 focus:bg-blue-700" role="button"> Get started </a>
+            <Link to="/signin" className="items-center justify-center hidden px-4 py-3 ml-10 text-base font-semibold text-white transition-all duration-200 bg-blue-600 border border-transparent rounded-md lg:inline-flex hover:bg-blue-700 focus:bg-blue-700" role="button"> Sign in </Link>
           </nav>
 
         </div>

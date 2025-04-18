@@ -3,139 +3,19 @@ import React from 'react'
 const PartnerLogo = () => {
     return (
         <>
-            <section
-                className="relative py-12 overflow-hidden bg-gray-50 sm:py-16 lg:py-20 xl:py-32"
-            >
-                <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
-                    <div className="grid items-center grid-cols-1 xl:grid-cols-2">
-                        <div
-                            className="px-8 text-center xl:text-left xl:pr-16 md:max-w-2xl md:mx-auto xl:max-w-none"
-                        >
-                            <h2
-                                className="text-3xl font-bold text-gray-900 sm:text-4xl xl:text-5xl font-pj"
-                            >
-                                Customers and brands love using Rareblocks
-                            </h2>
-                            <p className="mt-6 text-lg font-normal text-gray-600 font-pj">
-                                Lorem ipsum dolor sit amet, consectetur adipis elit. Sit enim nec,
-                                proin faucibus nibh et sagittis.
-                            </p>
-                        </div>
+            <section id="Partner" class="py-12 bg-white sm:py-16 lg:py-20">
+                <div class="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
+                    <div class="">
+                        <h2 class="text-3xl font-bold text-gray-900 flex justify-center lg:text-5xl mb-10">Our Partners</h2>
 
-                        <div className="relative mt-8 sm:mt-12 lg:max-w-4xl lg:mx-auto xl:max-w-none xl:mt-0">
-                            <div className="absolute inset-16">
-                                <div
-                                    className="w-full h-full mx-auto rotate-180 opacity-30 rounded-3xl blur-lg filter"
-                                    style={{
-                                        background: "linear-gradient(90deg, #44ff9a -0.55%, #44b0ff 22.86%, #8b44ff 48.36%, #ff6644 73.33%, #ebff70 99.34%)"
-                                    }}
-                                ></div>
-                            </div>
-
-                            <div className="relative space-y-5">
-                                <div className="grid grid-cols-1 gap-5 sm:grid-cols-3">
-                                    <div
-                                        className="flex items-center justify-center px-6 py-4 mx-auto overflow-hidden bg-white rounded-lg shadow-lg w-44 md:w-full"
-                                    >
-                                        <img
-                                            className="w-auto h-8"
-                                            src="https://cdn.rareblocks.xyz/collection/clarity/images/brands/3/logo-vertex.svg"
-                                            alt=""
-                                        />
-                                    </div>
-
-                                    <div
-                                        className="flex items-center justify-center px-6 py-4 mx-auto overflow-hidden bg-white rounded-lg shadow-lg w-44 md:w-full"
-                                    >
-                                        <img
-                                            className="w-auto h-8"
-                                            src="https://cdn.rareblocks.xyz/collection/clarity/images/brands/3/logo-martino.svg"
-                                            alt=""
-                                        />
-                                    </div>
-
-                                    <div
-                                        className="flex items-center justify-center px-6 py-4 mx-auto overflow-hidden bg-white rounded-lg shadow-lg w-44 md:w-full"
-                                    >
-                                        <img
-                                            className="w-auto h-8"
-                                            src="https://cdn.rareblocks.xyz/collection/clarity/images/brands/3/logo-squarestone.svg"
-                                            alt=""
-                                        />
-                                    </div>
-                                </div>
-
-                                <div className="grid grid-cols-1 gap-5 sm:grid-cols-3 xl:translate-x-6">
-                                    <div
-                                        className="flex items-center justify-center px-6 py-4 mx-auto overflow-hidden bg-white rounded-lg shadow-lg w-44 md:w-full"
-                                    >
-                                        <img
-                                            className="w-auto h-8"
-                                            src="https://cdn.rareblocks.xyz/collection/clarity/images/brands/3/logo-waverio.svg"
-                                            alt=""
-                                        />
-                                    </div>
-
-                                    <div
-                                        className="flex items-center justify-center px-6 py-4 mx-auto overflow-hidden bg-white rounded-lg shadow-lg w-44 md:w-full"
-                                    >
-                                        <img
-                                            className="w-auto h-8"
-                                            src="https://cdn.rareblocks.xyz/collection/clarity/images/brands/3/logo-fireli.svg"
-                                            alt=""
-                                        />
-                                    </div>
-
-                                    <div
-                                        className="flex items-center justify-center px-6 py-4 mx-auto overflow-hidden bg-white rounded-lg shadow-lg w-44 md:w-full"
-                                    >
-                                        <img
-                                            className="w-auto h-8"
-                                            src="https://cdn.rareblocks.xyz/collection/clarity/images/brands/3/logo-virogan.svg"
-                                            alt=""
-                                        />
-                                    </div>
-                                </div>
-
-                                <div className="grid grid-cols-1 gap-5 sm:grid-cols-3 xl:translate-x-12">
-                                    <div
-                                        className="flex items-center justify-center px-6 py-4 mx-auto overflow-hidden bg-white rounded-lg shadow-lg w-44 md:w-full"
-                                    >
-                                        <img
-                                            className="w-auto h-8"
-                                            src="https://cdn.rareblocks.xyz/collection/clarity/images/brands/3/logo-aromix.svg"
-                                            alt=""
-                                        />
-                                    </div>
-
-                                    <div
-                                        className="flex items-center justify-center px-6 py-4 mx-auto overflow-hidden bg-white rounded-lg shadow-lg w-44 md:w-full"
-                                    >
-                                        <img
-                                            className="w-auto h-8"
-                                            src="https://cdn.rareblocks.xyz/collection/clarity/images/brands/3/logo-natroma.svg"
-                                            alt=""
-                                        />
-                                    </div>
-
-                                    <div
-                                        className="flex items-center justify-center px-6 py-4 mx-auto overflow-hidden bg-white rounded-lg shadow-lg w-44 md:w-full"
-                                    >
-                                        <img
-                                            className="w-auto h-8"
-                                            src="https://cdn.rareblocks.xyz/collection/clarity/images/brands/3/logo-waverio-2.svg"
-                                            alt=""
-                                        />
-                                    </div>
-                                </div>
-                            </div>
+                        <div class="grid items-center grid-cols-1 mt-10 gap-y-6 xl:mt-0 sm:grid-cols-2 sm:gap-y-8 lg:grid-cols-4 lg:gap-x-8">
+                            <a href='https://suvrodip-chakroborty.vercel.app/'><img class="object-contain w-auto mx-auto h-20 rounded-lg shadow-md cursor-pointer hover:translate-y-[-4px]" src="/suvrodip.png" alt="" /> </a>
+                            <a href='https://e-bazar-teec.vercel.app/'><img class="object-contain w-auto mx-auto h-20 rounded-lg shadow-md cursor-pointer hover:translate-y-[-4px]" src="/e-bazar.png" alt="" /> </a>
+                            <a href='https://fast-chat-bn45.onrender.com/'><img class="object-contain w-auto mx-auto h-20 rounded-lg shadow-md cursor-pointer hover:translate-y-[-4px]" src="/fast-chat.png" alt="" /> </a>
+                            <a href='https://global-meet-gray.vercel.app/'><img class="object-contain w-auto mx-auto h-20 rounded-lg shadow-md cursor-pointer hover:translate-y-[-4px]" src="/global-meet.png" alt="" /> </a>
                         </div>
                     </div>
                 </div>
-
-                <div
-                    className="absolute inset-0 bg-gradient-to-b xl:bg-gradient-to-r from-transparent via-transparent to-gray-50"
-                ></div>
             </section>
 
         </>
