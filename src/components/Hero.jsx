@@ -52,7 +52,7 @@ const Hero = () => {
                                             className="w-full px-4 py-4 text-gray-900 placeholder-gray-500 bg-white border border-gray-400 rounded-xl outline-none focus:ring-2 focus:ring-gray-900"
                                         />
 
-                                        <div className="flex gap-4">
+                                        <div className="flex gap-4 lg:justify-start justify-center">
                                             <button
                                                 type="button"
                                                 onClick={handleCreateRoom}
